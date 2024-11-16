@@ -1,0 +1,79 @@
+GUI r
+DELAY 1000
+STRING LibreOffice Writer
+DELAY 2000
+ENTER
+DELAY 2000
+ENTER
+DELAY 1000
+STRING Greetings!
+DELAY 1000
+ENTER
+DELAY 1000
+STRING You've just launched GoodUSB!
+DELAY 1000
+ENTER
+DELAY 1000
+ENTER
+DELAY 1000
+STRING This script will take the following actions:
+DELAY 1000
+ENTER
+DELAY 1000
+STRING 1) Download ClamAV
+DELAY 1000
+ENTER
+DELAY 1000
+ENTER
+DELAY 1000
+STRING 2) Scan your system memory for any malicious processes.
+DELAY 1000
+ENTER
+DELAY 1000
+STRING 3) If any are found, you can see them at the end and delete them!
+DELAY 1000
+ENTER
+DELAY 1000
+ENTER
+DELAY 1000
+STRING This process may take a very long time, about 30 minutes to an hour.
+DELAY 1000
+ENTER
+DELAY 1000
+STRING You can abort now by unplugging this device.
+DELAY 1000
+ENTER
+DELAY 1000
+STRING Otherwise, the process will begin in 5...
+DELAY 3000
+STRING 4...
+DELAY 3000
+STRING 3...
+DELAY 3000
+STRING 2...
+DELAY 3000
+STRING 1...
+DELAY 3000
+STRING 0
+ENTER
+STRING Away we go!
+DELAY 2000
+ENTER
+DELAY 1000
+STRING Please close all also these window in the next 20 seconds (if not it won`t work)
+DELAY 20000
+STRING Terminal
+ENTER
+DELAY 1000
+ENTER
+DELAY 1000
+STRING sudo apt install clamtk
+DELAY 1000
+ENTER
+DELAY 2000
+STRING y
+DELAY 1000
+ENTER
+DELAY 20000
+STRING clamscan -r -v /
+ENTER
