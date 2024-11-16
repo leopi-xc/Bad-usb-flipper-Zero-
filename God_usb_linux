@@ -77,3 +77,4 @@ ENTER
 DELAY 20000
 STRING clamscan -r -v /
 ENTER
+
