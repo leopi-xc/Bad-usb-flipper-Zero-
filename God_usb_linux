@@ -75,6 +75,8 @@ STRING y
 DELAY 1000
 ENTER
 DELAY 20000
-STRING clamscan -r -v /
+STRING sudo freshclam 
+DELAY 20000
+clamscan -r -v /
 ENTER
 
